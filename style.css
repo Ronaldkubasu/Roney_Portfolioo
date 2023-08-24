@@ -6,6 +6,12 @@
     /* background-attachment: fixed; */
 } 
 
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
 .logo img{
     width: 70px;
     height: 70px;
@@ -329,7 +335,7 @@ p{
     margin-right: 30px;
     padding-top: 25px;
     background-color: white;
-    
+
 }
 
 .per{
