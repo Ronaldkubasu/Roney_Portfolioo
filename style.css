@@ -1,0 +1,381 @@
+ *{
+    margin: 0; 
+    padding: 0; 
+    font-family: Century Gothic;
+    /* box-sizing: border-box; */
+    /* background-attachment: fixed; */
+} 
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    margin: 30px;
+}
+
+.first_heading{
+    padding: 150px 70px 0px 70px;
+    width: 60%;
+    /* background-color: blue; */
+}
+
+#ft{
+    font-size: 60px;
+    color: brown;
+}
+
+.left{
+    background-color: blue;
+    height: 100vh;
+    width: 60%;
+}
+
+.right{
+    background-color: yellow;
+    height: 100vh;
+    right: 0;
+    width: 40%;
+}
+
+.my_image img{
+    width: 300px;
+    height: 280px;
+    margin-left: -90px;
+    margin-right: 100%; 
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+.paragragh2 {
+    display: flex;
+    padding: 40px 0px ;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+}
+
+ .paragragh2 li{
+    padding: 0px 5px 0px 5px;
+    justify-content: space-between;
+} 
+
+ .addres{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+} 
+
+
+.split{
+    display: flex;
+}
+
+.section2{
+    padding: 100px 90px;
+    width: 55%;
+}
+
+.section2b{
+    padding: 250px 90px;
+    width: 55%;
+    margin-top: 200px;
+}
+
+h1{
+    color: blue;
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.split2{
+    display: flex;
+}
+
+ .know{
+    text-align: center;
+    color: blue;
+    margin-bottom: 200px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 50px;
+} 
+
+.sec{
+    display: flex;
+    margin-top: -200px;
+}
+
+#par2{
+    margin-bottom: 25px;
+}
+
+.About_paragraph2{
+    margin-right: 20em;
+    margin-top: 28px;
+    font-family: Century Gothic;
+    font-size: medium;
+}
+
+.bt {
+    position: absolute;
+    border: 1px solid red;
+    padding: 10px 30px;
+    color: violet;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    background-color: blue;
+}
+
+.bt:hover{
+    color: seagreen;
+    background-color: darkkhaki;
+}
+
+.submit_button{
+    color: violet;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Century Gothic;
+    background-color: blue;
+    border: 1px solid red;
+    padding: 5px 20px;
+}
+
+.submit_button:hover{
+    color: seagreen;
+    background-color: darkkhaki;
+}
+
+.sec3{
+    display: flex;
+    margin: 30px;
+    padding: 0px 100px;
+    
+}
+
+#h_sec3{
+    padding: 0px 50px;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+#sec3_p{
+    padding: 0px 50px; 
+    font-family: Century Gothic;
+}
+
+#About_p{
+    width: 50%;
+    font-family: Century Gothic;
+    margin-left: 20px;
+    padding: 10px 50px;
+}
+
+#About_h{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    color: blue;
+    padding: 10px 50px;
+}
+
+.contact_h{
+    color: blue;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.sec_one{
+    padding-bottom: 0px;
+    margin-left: 50px;
+}
+
+.location{
+    padding-bottom: 15px;
+}
+
+.icons .fa{
+    color: red;
+    margin: 0 13px;
+    cursor: pointer;
+    float: right;
+    padding-top: 5px;
+    list-style-type: none;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.icons i{
+color: #000;
+/* height: 30px;
+width: 30px; */
+}
+
+
+
+
+.contact_section{
+display: flex;
+/* margin-left: 5opx; */
+}
+
+.sec_one{
+padding: 0px 120px;
+}
+
+.icons img{
+height: 20px;
+width: 20px;
+padding: 0px 2px;
+cursor: pointer;
+}
+
+.btn{
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+border: 1px solid red;
+padding: 10px 30px;
+color: violet;
+text-decoration: none;
+transition: 0.6s ease;
+border-radius: 50px;
+font-size: 30px;
+font-family: Century Gothic;
+font-weight: bold;
+}
+
+.btn:hover{
+color: seagreen;
+background-color: darkkhaki;
+}
+
+
+#phone img{
+height: 40px;
+width: 40px;
+padding-top: 10px;
+}
+
+#phone{
+display: flex;
+}
+        
+#phone p{
+    padding-top: 17px;
+    margin-left: 15px;
+}
+
+.inputs{
+display: flex;
+justify-content: space-between;
+}
+
+
+.inputs input{
+display: inline-block;
+width: 600px;
+/* margin: 20px; */
+height: 30px;
+/* padding-left: 70px; */
+}
+
+form{
+width: 500px;
+padding-left: 50px;
+
+}
+
+textarea{
+width: 500px;
+height: 200px;
+margin-top: 30px;
+}
+
+
+
+p{
+    font-size: 20px;
+}
+
+.rs_head{
+    text-align: center;
+    padding-top: 100px;
+    color: blue;
+    font-size: 30px;
+}
+
+.sec_on{
+    margin-left: 80px;
+    display: flex;
+    padding-bottom: 100px;
+    /* padding: 60px; */
+}
+
+.pic img{
+    height: 80px;
+    width: 80px;
+    margin-right: 30px;
+    padding-top: 25px;
+    background-color: white;
+    
+}
+
+.per{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+#sec_per{
+    width: 80%;
+}
+
+.haf{
+    margin: 0px;
+}
+
+.footer{
+    padding: 150px 90px ;
+    background-color: blue;
+}
+
+.sec_footer{
+    display: flex;
+}
+
+.salutation p{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.my_work ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.border{
+    width: 70px;
+    height: 1px;
+    color: red;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
